@@ -1,4 +1,4 @@
-import utils from "../node_modules/decentraland-ecs-utils/index"
+import * as utils from '@dcl/ecs-scene-utils'
 
 export class RotatingPlatform extends Entity {
   constructor(model: GLTFShape, transform: Transform, rotation: Quaternion) {
