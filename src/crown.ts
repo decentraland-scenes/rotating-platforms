@@ -20,7 +20,7 @@ export class Crown extends Entity {
           },
           onCameraExit: () => {
             this.getComponent(utils.TriggerComponent).enabled = false
-          },
+          }
         }
       )
     )
